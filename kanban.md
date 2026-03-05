@@ -13,8 +13,12 @@ tags: [template]
 
 # Project Kanban
 
-| Task | Assignee | Effort | Status |
-| :--- | :--- | :--- | :--- |
-| Project setup | @lead | 1d | Done |
-| Initial architecture | @tech-lead | 2d | In Progress |
-| Documentation | @developer | 1d | Todo |
+<!-- Valid statuses: Todo, In Progress, Review, Done (exact spelling required) -->
+<!-- Effort format: Nd (e.g. 1d, 0.5d, 3d) — Start/End dates: YYYY-MM-DD (optional) -->
+<!-- 4-column format (without dates) also supported for backward compatibility -->
+
+| Task | Assignee | Effort | Start | End | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Project setup | @lead | 1d | 2026-03-03 | 2026-03-03 | Done |
+| Initial architecture | @tech-lead | 2d | 2026-03-04 | 2026-03-05 | In Progress |
+| Documentation | @developer | 1d | | | Todo |
